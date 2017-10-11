@@ -1,0 +1,30 @@
+#include <stdio.h>
+void main()
+{
+	int a,i,j,s,b,c,k ;
+
+	printf("donner a \n");
+	scanf("%d",&a);
+	b=a;
+	for(k=1;k<=b;k++)
+	{
+		printf(" ");
+	}
+printf("*");
+
+s=1;
+for(i=1;i<a;i++)
+{
+	s=s+2;
+	printf("\n");
+	b=b-1;
+	for(c=1;c<=b;c++)
+
+	{
+		printf(" ");
+	}
+for(j=1;j<=s;j++)
+{
+printf("*");
+}
+}
